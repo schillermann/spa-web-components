@@ -1,0 +1,24 @@
+{
+  "name": "spa-web-components",
+  "version": "1.0.0",
+  "description": "Single page app example with web components",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schillermann/spa-web-components.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "lint":"eslint"
+  },
+  "bugs": {
+    "url": "https://github.com/schillermann/spa-web-components/issues"
+  },
+  "homepage": "https://github.com/schillermann/spa-web-components#readme",
+  "devDependencies": {
+    "eslint": "^8.22.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.4",
+    "eslint-plugin-promise": "^6.0.0"
+  }
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,minimum-scale=1,initial-scale=1"
+    />
+    <meta name="theme-color" content="#FF00FF" />
+    <title>Home</title>
+  </head>
+  <body>
+    <wc-content></wc-content>
+    <script type="module">
+      import Page from './js/page.js'
+      const page = new Page().withRoute('/home.html', 'Title', 'Home', '/js/pages/home.js')
+      page.load()
+    </script>
+  </body>
+</html>
